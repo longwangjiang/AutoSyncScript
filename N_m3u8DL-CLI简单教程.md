@@ -1,6 +1,8 @@
+```
 例如腾讯的视频教程
 https://ke.qq.com/webcourse/538301/100635882#taid=49488620&lite=1&vid=387702298317514549
 使用IDM抓取的URL为
 https://1258712167.vod2.myqcloud.com/24a47eeavodcq1258712167/d6f11fba387702298317514549/playlist_eof.m3u8?t=62727B4D&sign=e882d4b1837bfede36fdae545201cd45
 把IDM抓取的地址复制到N_m3u8DL-CLI里下载(N_m3u8DL-CLI_v2.9.9命令行模式，N_m3u8DL-CLI-SimpleG图像界面模式)
 在Dowdload目录里找到下载的文件。
+```
