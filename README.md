@@ -5,9 +5,9 @@
 ## 更新日志
 
 ```
-vaxilu/x-ui
+x-ui(项目地址)
 https://github.com/vaxilu/x-ui
-支持多协议多用户的 xray 面板
+
 功能介绍
 系统状态监控
 支持多用户多协议，网页可视化操作
