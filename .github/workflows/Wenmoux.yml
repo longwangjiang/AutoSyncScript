@@ -1,4 +1,4 @@
-name: Wenmoux-sync
+name: CorePress Theme
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-Wenmoux-JavaScript
+    types: sync-CorePress Theme
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync Wenmoux-JavaScript
+      - name: sync CorePress Theme
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/Wenmoux/scripts.git"
-          source_branch: "wen"
-          destination_branch: "Wenmoux"
+          source_repo: "https://github.com/ghboke/CorePressWPTheme.git"
+          source_branch: "main"
+          destination_branch: "CorePress Theme"
           github_token: ${{ secrets.PAT }}
