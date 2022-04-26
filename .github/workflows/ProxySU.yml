@@ -1,4 +1,4 @@
-name: DD-D1-sync
+name: ProxySU
 on:
   schedule:
     - cron: '14 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-DD-D1-2020scripts
+    types: sync-ProxySU
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync DD-D1-2020scripts
+      - name: sync ProxySU
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/DD-D1/2020scripts.git"
+          source_repo: "https://github.com/proxysu/ProxySU"
           source_branch: "master"
           destination_branch: "DD-D1"
           github_token: ${{ secrets.PAT }}
