@@ -43,6 +43,16 @@ https://github.com/ghboke/CorePressWPTheme
 功能介绍
 果核博客的WordPress
 ```
+```
+N_m3u8DL(项目地址)
+https://github.com/nilaoda/N_m3u8DL-CLI
+
+功能介绍
+一个简单易用的m3u8下载器，下载地址：https://github.com/nilaoda/N_m3u8DL-CLI/releases
+支持下载m3u8链接或文件为mp4或ts格式，并提供丰富的命令行选项。
+
+```
+
 ## 使用说明
 ```
 1、直接fork本项目到你自己的仓库。
