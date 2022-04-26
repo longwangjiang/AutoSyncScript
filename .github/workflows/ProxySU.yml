@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/proxysu/ProxySU"
+          source_repo: "https://github.com/proxysu/ProxySU.git"
           source_branch: "master"
-          destination_branch: "DD-D1"
+          destination_branch: "ProxySU"
           github_token: ${{ secrets.PAT }}
