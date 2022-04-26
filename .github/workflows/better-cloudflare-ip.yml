@@ -1,4 +1,4 @@
-name: Peng-YM-sync
+name: better-cloudflare-ip
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-Peng-YM-QuanX
+    types: sync-better-cloudflare-ip
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync Peng-YM-QuanX
+      - name: sync better-cloudflare-ip
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/Peng-YM/QuanX.git"
+          source_repo: "https://github.com/badafans/better-cloudflare-ip.git"
           source_branch: "master"
-          destination_branch: "Peng-YM"
+          destination_branch: "better-cloudflare-ip"
           github_token: ${{ secrets.PAT }}
