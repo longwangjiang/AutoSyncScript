@@ -53,6 +53,13 @@ https://github.com/nilaoda/N_m3u8DL-CLI
 支持下载m3u8链接或文件为mp4或ts格式，并提供丰富的命令行选项。
 
 ```
+```
+reinstall(项目地址)
+https://github.com/fcurrk/reinstall
+
+功能介绍
+一键DD纯净版系统
+```
 
 ## 使用说明
 ```
