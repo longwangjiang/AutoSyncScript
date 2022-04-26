@@ -36,7 +36,13 @@ https://github.com/badafans/better-cloudflare-ip
 功能介绍
 查找适合自己当前网络环境的优选Cloudflare Anycast IP
 ```
+```
+CorePress Theme(项目地址)
+https://github.com/ghboke/CorePressWPTheme
 
+功能介绍
+果核博客的WordPress
+```
 ## 使用说明
 ```
 1、直接fork本项目到你自己的仓库。
