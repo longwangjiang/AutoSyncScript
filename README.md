@@ -19,63 +19,17 @@ https://github.com/vaxilu/x-ui
 支持一键SSL证书申请且自动续签
 更多高级配置项，详见面板
 
-6月5日
+ProxySU(项目地址)
+https://github.com/proxysu/ProxySU
 
-增加了对 hyzaw 大佬仓库的拉取
+功能介绍
+V2ray, Xray, Trojan, NaiveProxy, Trojan-Go, MTProto Go, Brook,BBR install tools for windows。
+V2ray，Xray, Trojan，NaiveProxy, Trojan-Go, MTProto Go, Brook 及相关插件。支持纯ipv6主机一键安装代理。
+BBR一键开启（仅支持CentOS8/Debian9/10/Ubuntu18.04及以上）,支持语言:English、简体中文、正体（繁体）中文。
 
-6月3日
-
-增加了对 zooPanda 大佬仓库的拉取
-
-
-6月2日
-
-增加了对 Wenmoux 大佬仓库的拉取
+编译环境Visual Studio 2019 使用WPF界面。可一键安装 V2ray/Xray, Shadowsocks, Trojan, Trojan-Go, NaiveProxy, MTProto Go, Brook 后续还会再添加其他。
 
 
-
-6月1日
-
-增加了对 柠檬的 panghu（胖虎） 库的拉取
-
-
-4月30日
-
-增加了对tom仓库的拉取
-
-增加了对passerby-b 大佬仓库的拉取
-
-增加了对柠檬 大佬的 ningmeng（柠檬）库的拉取
-
-修复了对sunert仓库的拉取
-
-移除了对ichenzhe失效仓库的拉取，都在和尚的库里
-
-
-4月5日 22:30，
-
-拉取了一个新的备份库
-
-3月28日9:00，
-
-拉取了一个备份有 lxk0301 大佬脚本的第三方备份库，非常感谢勤劳的作者ElsaKing
-
-3月26日16:00，
-
-1、因ichenzhe大佬删库，目前此任务的拉取已报错，请删除对应yml就可以。已经拉到的分支就是最后备份了，且用且珍惜。
-
-3月26日9:15，
-
-1、增加了对 奇趣史蒂夫 脚本库的拉取
-2、增加了对 songyangzz 脚本库的拉取
-3、增加了对 iepngs 脚本库的拉取
-4、增加了对 lowking 脚本库的拉取
-
-3月26日9:00，
-
-1、修复了 chavyleung 脚本库无法正确拉取的bug ，可以重新fork本项目获取更新，可以到chavyleung.yml中复制代码修改到您的仓库
-
-```
 
 ^_^
 
