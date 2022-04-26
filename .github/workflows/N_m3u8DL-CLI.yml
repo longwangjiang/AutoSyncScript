@@ -1,4 +1,4 @@
-name: chavyleung-sync
+name: N_m3u8DL-CLI
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-chavyleung-scripts
+    types: sync-N_m3u8DL-CLI
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync chavyleung-scripts
+      - name: sync N_m3u8DL-CLI
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/chavyleung/scripts.git"
+          source_repo: "https://github.com/nilaoda/N_m3u8DL-CLI.git"
           source_branch: "master"
-          destination_branch: "chavyleung"
+          destination_branch: "N_m3u8DL-CLI"
           github_token: ${{ secrets.PAT }}
