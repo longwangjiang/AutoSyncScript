@@ -28,9 +28,6 @@ V2ray，Xray, Trojan，NaiveProxy, Trojan-Go, MTProto Go, Brook 及相关插件�
 BBR一键开启（仅支持CentOS8/Debian9/10/Ubuntu18.04及以上）,支持语言:English、简体中文、正体（繁体）中文。
 
 编译环境Visual Studio 2019 使用WPF界面。可一键安装 V2ray/Xray, Shadowsocks, Trojan, Trojan-Go, NaiveProxy, MTProto Go, Brook 后续还会再添加其他。
-
-
-
 ```
 
 ## 使用说明
