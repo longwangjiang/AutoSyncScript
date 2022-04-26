@@ -18,7 +18,7 @@ https://github.com/vaxilu/x-ui
 支持 https 访问面板（自备域名 + ssl 证书）
 支持一键SSL证书申请且自动续签
 更多高级配置项，详见面板
-
+```
 ProxySU(项目地址)
 https://github.com/proxysu/ProxySU
 
