@@ -4,7 +4,7 @@
 
 
 
-name: NobyDa-sync
+name: cloudflare-ip
 on:
   schedule:
     - cron: '6 */3 * * *'
@@ -12,7 +12,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-NobyDa-Script
+    types: sync-cloudflare-ip
 jobs:
   repo-sync:
     env:
@@ -24,11 +24,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync NobyDa-Script
+      - name: sync cloudflare-ip
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/NobyDa/Script.git"
+          source_repo: "https://github.com/badafans/better-cloudflare-ip.git"
           source_branch: "master"
-          destination_branch: "NobyDa"
+          destination_branch: "cloudflare-ip"
           github_token: ${{ secrets.PAT }}
