@@ -67,7 +67,13 @@ https://github.com/limoruirui/misaka
 功能介绍
 52pj，iqiyi,sf,dx等签到脚本
 ```
+```
+自建Zerotier-PLANET服务（项目地址）
+https://github.com/xubiaolin/docker-zerotier-planet
 
+功能介绍
+自建Zerotier-PLANET服务
+···
 ## 使用说明
 ```
 1、直接fork本项目到你自己的仓库。
