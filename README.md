@@ -60,6 +60,13 @@ https://github.com/fcurrk/reinstall
 功能介绍
 一键DD纯净版系统
 ```
+```
+一些羊毛(项目地址)
+https://github.com/limoruirui/misaka
+
+功能介绍
+52pj，iqiyi,sf,dx等签到脚本
+```
 
 ## 使用说明
 ```
