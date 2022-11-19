@@ -1,4 +1,4 @@
-name: hyzaw-sync
+name: docker-zerotier-planet
 on:
   schedule:
     - cron: '1 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync- hyzaw-JavaScript
+    types: sync- docker-zerotier-planet
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync  hyzaw-JavaScript
+      - name: sync  docker-zerotier-planet
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/hyzaw/scripts.git"
-          source_branch: "main"
-          destination_branch: "hyzaw"
+          source_repo: "https://github.com/xubiaolin/docker-zerotier-planet.git"
+          source_branch: "master"
+          destination_branch: "docker-zerotier-planet"
           github_token: ${{ secrets.PAT }}
