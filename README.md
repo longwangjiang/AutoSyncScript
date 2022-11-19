@@ -74,6 +74,13 @@ https://github.com/xubiaolin/docker-zerotier-planet
 功能介绍
 自建Zerotier-PLANET服务
 ···
+```
+网络电视（项目地址）
+https://github.com/iptv-org/iptv
+
+功能介绍
+收集来自世界各地的公开可用的IPTV（互联网协议电视）频道。
+···
 ## 使用说明
 ```
 1、直接fork本项目到你自己的仓库。
