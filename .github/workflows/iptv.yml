@@ -1,12 +1,12 @@
-name: longzhu-sync
+name: iptv
 on:
   schedule:
-    - cron: '1 */3 * * *'
+    - cron: '14 */3 * * *'
   workflow_dispatch:
   watch:
     types: started
   repository_dispatch:
-    types: sync-longzhu-JavaScript
+    types: sync-iptv
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync longzhu-JavaScript
+      - name: sync iptv
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/oujisome/jdshell.git"
-          source_branch: "main"
-          destination_branch: "longzhu"
+          source_repo: "https://github.com/iptv-org/iptv.git"
+          source_branch: "master"
+          destination_branch: "iptv"
           github_token: ${{ secrets.PAT }}
