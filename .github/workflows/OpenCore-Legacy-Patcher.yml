@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/longwangjiang/OpenCore-Legacy-Patcher.git"
+          source_repo: "https://github.com/dortania/OpenCore-Legacy-Patcher.git"
           source_branch: "master"
           destination_branch: "OpenCore-Legacy-Patcher"
           github_token: ${{ secrets.PAT }}
