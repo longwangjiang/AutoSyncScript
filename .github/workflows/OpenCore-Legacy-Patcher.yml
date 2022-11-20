@@ -1,12 +1,12 @@
 name: OpenCore-Legacy-Patcher
 on:
   schedule:
-    - cron: '1 */3 * * *'
+    - cron: '30 8 * * *'
   workflow_dispatch:
   watch:
     types: started
   repository_dispatch:
-    types: sync-OpenCore-Legacy-Patcher
+    types: sync- OpenCore-Legacy-Patcher
 jobs:
   repo-sync:
     env:
@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync OpenCore-Legacy-Patcher
+      - name: sync  OpenCore-Legacy-Patcher
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
