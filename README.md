@@ -5,6 +5,8 @@
 ```
 x-ui(项目地址)
 https://github.com/vaxilu/x-ui
+修改版的X-ui支持最新协议
+https://github.com/FranzKafkaYu/x-ui/
 
 功能介绍
 系统状态监控
